@@ -1,0 +1,5 @@
+def num(n):
+    value = n, 'is even number' if n%2==0 else 'is an odd number'
+    return value
+n = int(input('enter a num'))
+print(num(n))
